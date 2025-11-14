@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+img {
+    display: block;
+    margin: 40px auto;
+    width: 500px;
+    height: 400px;
+    object-fit: auto;
+    border-radius: 50px;
+    transition: transform 200ms ease, box-shadow 200ms ease, filter 200ms ease;
+    will-change: tranform;
+   }
+
+img.is-expanded {
+    transform: scale(1.06);
+    box-shadow: 0 16px 44px rgb(23, 102, 141);
+}
